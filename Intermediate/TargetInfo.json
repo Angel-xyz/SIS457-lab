@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Nave_Lab_SIS457",
+			"Path": "D:\\Unreal_Engine\\Unreal Projects\\Nave_Lab_SIS457\\Source\\Nave_Lab_SIS457.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Nave_Lab_SIS457Editor",
+			"Path": "D:\\Unreal_Engine\\Unreal Projects\\Nave_Lab_SIS457\\Source\\Nave_Lab_SIS457Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,3 @@
+D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\Definitions.Nave_Lab_SIS457.h
+D:\Unreal_Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Unreal_Engine\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

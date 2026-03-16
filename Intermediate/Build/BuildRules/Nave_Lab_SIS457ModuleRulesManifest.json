@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal_Engine\\Unreal Projects\\Nave_Lab_SIS457\\Source\\Nave_Lab_SIS457\\Nave_Lab_SIS457.Build.cs",
+		"D:\\Unreal_Engine\\Unreal Projects\\Nave_Lab_SIS457\\Source\\Nave_Lab_SIS457.Target.cs",
+		"D:\\Unreal_Engine\\Unreal Projects\\Nave_Lab_SIS457\\Source\\Nave_Lab_SIS457Editor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

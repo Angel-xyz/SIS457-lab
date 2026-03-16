@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Nave_Lab_SIS457.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\Nave_Lab_SIS457Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\OrchestDirector.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\SwarmManager.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\ASphereShip.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\Nave_Lab_SIS457.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\Nave_Lab_SIS457GameMode.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\Nave_Lab_SIS457Pawn.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\Nave_Lab_SIS457Projectile.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\ASphereShip.gen.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\Nave_Lab_SIS457.init.gen.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\Nave_Lab_SIS457GameMode.gen.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\Nave_Lab_SIS457Pawn.gen.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\Nave_Lab_SIS457Projectile.gen.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\OrchestDirector.gen.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\SwarmManager.gen.cpp.obj"
+"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\Default.rc2.res"
+/OUT:"D:\Unreal_Engine\Unreal Projects\Nave_Lab_SIS457\Intermediate\Build\Win64\UE4Editor\Development\Nave_Lab_SIS457\UE4Editor-Nave_Lab_SIS457.lib"
