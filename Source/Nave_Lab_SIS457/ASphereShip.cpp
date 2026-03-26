@@ -14,7 +14,7 @@ AASphereShip::AASphereShip()
 	SphereMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("VisualSphereMesh"));
 	RootComponent = SphereMesh;
 
-	// SphereMesh->SetCollisionProfileName(TEXT("NoCollision"));
+	SphereMesh->SetCollisionProfileName(TEXT("NoCollision"));
 
 	SphereMesh->SetMobility(EComponentMobility::Movable);
 

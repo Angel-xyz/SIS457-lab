@@ -41,7 +41,8 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Componentes")
 	class UFloatingPawnMovement* MovementComponent;
 
-	// Proverbial Cerebro, EditAnywhere nos permitirá modificarlo desde el editor
+	// Proverbial Cerebro
+	// EditAnywhere nos permitirá modificarlo desde el editor
 	UPROPERTY(EditAnywhere, Category = "Configuracion Coreo")
 	float MovementSpeed = 500.0f;
 

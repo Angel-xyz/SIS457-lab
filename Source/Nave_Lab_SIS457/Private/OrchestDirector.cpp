@@ -152,9 +152,9 @@ void AOrchestDirector::StartStarYingYang()
                 // LAS 2 NAVES DEL YIN-YANG (índices 18 y 19)
                 Ship->CurrentRadius = 60.0f; // Un radio pequeño
                 Ship->CurrentAngle = (i == NumberOfShips-2) ? 0.0f : PI; // Una empieza en 0 grados, la otra a 180 (PI radianes)
-                Ship->CurrentSpinSpeed = 20.0f; // ¡Que giren rapidísimo!
+                Ship->CurrentSpinSpeed = 20.0f; // Que giren rapidísimo!
 
-                // REUTILIZAMOS tu código de giro
+                // REUTILIZAMOS el código de giro
                 Ship->yingyang = true;
                 Ship->CurrentState = EOrchestState::PauseAndSpin;
             }
