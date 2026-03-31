@@ -15,8 +15,11 @@ public:
 	// Sets default values for this actor's properties
 	AMazeWall();
 
-	UPROPERTY(VisibleAnywhere, Category = "Componentes")
+	UPROPERTY(EditAnywhere, Category = "Componentes")
 	class UStaticMeshComponent* Mesh;
+
+	//UPROPERTY(EditAnywhere, Category = "Componentes")
+	//class UMaterial* Mater;
 
 protected:
 	// Called when the game starts or when spawned

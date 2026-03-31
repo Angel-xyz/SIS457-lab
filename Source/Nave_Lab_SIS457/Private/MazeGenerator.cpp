@@ -20,6 +20,7 @@ void AMazeGenerator::BeginPlay()
 		AMazeWall* Wall = *iWall;
 		if (Wall != nullptr)
 		{
+			UE_LOG(LogTemp, Warning, TEXT("¡Éxito! Se agregó un muro a la listas"));
 			MazeWalls.append(Wall);
 		}
 	}

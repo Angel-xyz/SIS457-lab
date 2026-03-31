@@ -40,24 +40,23 @@ public:
 		}
 		else
 		{
-			for (MNode<M>* tmpNode = First; tmpNode != nullptr; tmpNode = tmpNode->Next)
+			MNode<M>* tmpNode = First;
+			while (tmpNode->Next != nullptr)
 			{
-				if (tmpNode->Next == nullptr)
-				{
-					tmpNode = NewNode;
-					NewNode = nullptr;
-				}
+				tmpNode = tmpNode->Next;
 			}
+			tmpNode->Next = NewNode;
 		}
 	};
 	void Empty()
 	{
-		MNode<M>* Noode = First->Next;
+		MNode<M>* Noode = First;
 		while(Noode != nullptr)
 		{
 			MNode<M>* tmpNode = Noode;
 			Noode = Noode->Next;
-			delete(tmpNode);
+			delete tmpNode;
+			tmpNode = nullptr;
 		}
 		First = nullptr;
 	};

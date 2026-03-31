@@ -14,11 +14,17 @@ AMazeWall::AMazeWall()
 	RootComponent = Mesh;
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> WallMesh(TEXT("/Game/Geometry/Meshes/1M_Cube.1M_Cube"));
+	static ConstructorHelpers::FObjectFinder<UMaterial> WallMater(TEXT("/Game/StarterContent/Materials/M_Brick_Clay_Old.M_Brick_Clay_Old"));
 
 	if (WallMesh.Succeeded())
 	{
 		UE_LOG(LogTemp, Display, TEXT("¡Éxito! El Mesh del muro se encontró y asignó correctamente."));
 		Mesh->SetStaticMesh(WallMesh.Object);
+	}
+
+	if (WallMater.Succeeded())
+	{
+		Mesh->SetMaterial(0, WallMater.Object);
 	}
 
 	Mesh->SetCollisionProfileName(TEXT("BlockAll"));
